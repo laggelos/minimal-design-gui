@@ -1,0 +1,38 @@
+msgid "color"
+msgstr "Color"
+
+msgid "visualization"
+msgstr "Visualization"
+
+msgid "displayelementflaglabel"
+msgstr "Show element at the top"
+
+msgid "displayelementlabel"
+msgstr "Element at the top"
+
+msgid "heartrate"
+msgstr "Heart rate"
+
+msgid "battery"
+msgstr "Battery"
+
+msgid "formats"
+msgstr "Formats"
+
+msgid "formatsLabel"
+msgstr "See here for date available formats"
+
+msgid "formatsLink"
+msgstr "https://github.com/Samurai016/Minimal-Design/blob/master/README.md#label-mapping"
+
+msgid "imageLink"
+msgstr "https://raw.githubusercontent.com/Samurai016/Minimal-Design/master/labels.png"
+
+msgid "imageLabel"
+msgstr "See here for watchface labels mapping"
+
+msgid "weekdayformat"
+msgstr "Weekday"
+
+msgid "dateformat"
+msgstr "Date"

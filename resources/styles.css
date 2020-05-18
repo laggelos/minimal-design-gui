@@ -1,0 +1,79 @@
+.background {
+  viewport-fill: black;
+}
+
+.light {
+  font-family: Colfax-Regular;
+}
+.bold {
+  font-family: Colfax-Medium;
+}
+.colored {
+  fill: #607D8B;
+}
+
+text {
+  text-length: 32;  
+}
+
+#hours {
+  font-size: 120;
+  text-anchor: end;
+  x: 55%;/*37%-30;*/
+  y: 30%+80;
+  fill: #E0E0E0;
+}
+
+#minutes {
+  font-size: 90;
+  text-anchor: start;
+  x: 54%+3;/*67%+15;*/
+  y: 30%+80;
+}
+
+#weekday {
+  font-size: 27;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+65;
+}
+
+#date {
+  font-size: 25;
+  text-anchor: middle;
+  x: 50%;
+  y: 90%+15;
+  fill: black;
+}
+
+.heartrate-element-text {
+  font-size: 25;
+  text-anchor: end;
+  x: 39%+10;
+  y: 10%;
+  fill: #E0E0E0;
+}
+
+.battery-element-text {
+  font-size: 25;
+  text-anchor: end;
+  x: 64%+10;
+  y: 10%;
+  fill: #E0E0E0;
+}
+
+.heartrate-element-icon {
+  opacity: 1;
+  width: 15;
+  height: 20;
+  x: 40%+12;
+  y: 10%-18;
+}
+
+.battery-element-icon {
+  opacity: 1;
+  width: 15;
+  height: 20;
+  x: 64%+12;
+  y: 10%-18;
+}
