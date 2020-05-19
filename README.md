@@ -1,6 +1,7 @@
 # Minimal Design
-[![Fitbit gallery](https://img.shields.io/badge/Fitbit%20gallery-%2300B0B9?style=flat-square&logo=fitbit&logoColor=white)](https://gallery.fitbit.com/details/172abe54-2970-4d56-a477-53565c4655f5)
-[![Fitbit gallery by Nicolò Rebaioli](https://img.shields.io/badge/Fitbit%20gallery-%2300B0B9?style=flat-square&logo=fitbit&logoColor=white)](https://gallery.fitbit.com/details/0f2f12b5-482e-4882-a733-d6687a0f1413)
+[![Fitbit gallery](https://img.shields.io/badge/Fitbit%20gallery-%2300B0B9?style=flat-square&logo=fitbit&logoColor=white)](https://gallery.fitbit.com/details/172abe54-2970-4d56-a477-53565c4655f5) (GUI version)
+
+[![Fitbit gallery](https://img.shields.io/badge/Fitbit%20gallery-%2300B0B9?style=flat-square&logo=fitbit&logoColor=white)](https://gallery.fitbit.com/details/0f2f12b5-482e-4882-a733-d6687a0f1413) (Base version by Nicolò Rebaioli)
 
 **Available only for Fitbit Versa, Versa Lite, Versa 2**
 
