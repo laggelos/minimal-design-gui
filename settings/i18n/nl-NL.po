@@ -26,7 +26,7 @@ msgid "formatsLink"
 msgstr "https://github.com/Samurai016/Minimal-Design/tree/master/docs/nl"
 
 msgid "imageLink"
-msgstr "https://raw.githubusercontent.com/Samurai016/Minimal-Design/master/docs/nl/labels.png"
+msgstr "https://github.com/laggelos/minimal-design-gui/blob/master/labels.png?raw=true"
 
 msgid "imageLabel"
 msgstr "Zie hier voor het toewijzen van de labels van de watchface"

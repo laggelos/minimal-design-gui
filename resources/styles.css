@@ -19,7 +19,7 @@ text {
 #hours {
   font-size: 120;
   text-anchor: end;
-  x: 55%;/*37%-30;*/
+  x: 56%;/*37%-30;*/
   y: 30%+80;
   fill: #E0E0E0;
 }
@@ -27,7 +27,7 @@ text {
 #minutes {
   font-size: 90;
   text-anchor: start;
-  x: 54%+3;/*67%+15;*/
+  x: 55%+4;/*67%+15;*/
   y: 30%+80;
 }
 
@@ -77,3 +77,7 @@ text {
   x: 64%+12;
   y: 10%-18;
 }
+/* #heartrate-icon {
+  width: 20;
+  x: 50%+15;
+} */

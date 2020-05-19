@@ -27,9 +27,9 @@ export default class UI {
   restore() {
     const color = this.fileStore.getValue(KEY_COLOR);
     this.updateColor(color);
-    this.setState(KEY_DISPLAY_ELEMENT, this.fileStore.getValue(KEY_DISPLAY_ELEMENT) || DISPLAY_ELEMENT_BATTERY);
-    this.setState(KEY_DISPLAY_ELEMENT_FLAG, this.fileStore.getValue(KEY_DISPLAY_ELEMENT_FLAG) || true);  
-    this.setState(KEY_DISPLAY_ELEMENT, this.fileStore.getValue(KEY_DISPLAY_ELEMENT) || DISPLAY_ELEMENT_HEART);
+    this.setState(KEY_DISPLAY_ELEMENT, this.fileStore.getValue(KEY_DISPLAY_ELEMENT) && DISPLAY_ELEMENT_BATTERY);
+    this.setState(KEY_DISPLAY_ELEMENT_FLAG, this.fileStore.getValue(KEY_DISPLAY_ELEMENT_FLAG) || true);
+    this.setState(KEY_DISPLAY_ELEMENT, this.fileStore.getValue(KEY_DISPLAY_ELEMENT) && DISPLAY_ELEMENT_HEART);
     this.setState(KEY_DISPLAY_ELEMENT_FLAG, this.fileStore.getValue(KEY_DISPLAY_ELEMENT_FLAG) || true);  
   }
 
@@ -42,7 +42,7 @@ export default class UI {
         Battery.instance.hide();
         HeartRate.instance.stop();
       } else {
-        this.setState(KEY_DISPLAY_ELEMENT, this.fileStore.getValue(KEY_DISPLAY_ELEMENT) || DISPLAY_ELEMENT_BATTERY);
+        this.setState(KEY_DISPLAY_ELEMENT, this.fileStore.getValue(KEY_DISPLAY_ELEMENT) && DISPLAY_ELEMENT_BATTERY);
       }
     } else {
        try {

@@ -26,7 +26,7 @@ msgid "formatsLink"
 msgstr "https://github.com/Samurai016/Minimal-Design/tree/master/docs/ko"
 
 msgid "imageLink"
-msgstr "https://raw.githubusercontent.com/Samurai016/Minimal-Design/master/docs/ko/labels.png"
+msgstr "https://github.com/laggelos/minimal-design-gui/blob/master/labels.png?raw=true"
 
 msgid "imageLabel"
 msgstr "보면 레이블 맵핑을 보려면 여기를 참조하십시오."
